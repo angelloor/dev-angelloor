@@ -1,6 +1,6 @@
 <h1 align= "center"><b>:earth_asia: ¡Hola mundo! :earth_asia:</b></h1>
 
-<img src="https://angelloor.dev/assets/img/portada.jpg" alt="Portada!" width="100%"/>
+<img src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/img/portada.jpg" alt="Portada!" width="100%"/>
 
 <p align="center">
 Me especializo en desarrollo de aplicaciones web y aplicaciones móviles con tecnologías modernas realizando proyectos que cumplan con los objetivos de tu empresa.
