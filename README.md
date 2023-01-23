@@ -25,7 +25,7 @@ Desarrollador de Software en<a href="https://puyo.gob.ec/" target="_blank"><b> G
 <a href="https://www.postgresql.org" target="_blank"><img height="75" src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/icons/tech/postgresql.svg"></a>  
 </div>
 
-**🔱 Tengo experiencia en:**
+**🔱 Tengo experiencia en:*
 
 <div style="display: flex;">
 <a href="https://www.linux.org" target="_blank"><img height="75" src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/icons/tech/linux.svg"></a>  
