@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "dist/angelloor",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

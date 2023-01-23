@@ -1,0 +1,32 @@
+<header class="header">
+    <nav class="nav containerPersonal">
+        <a *ngIf="!darkmode" (click)="changeEstadoNav('Inicio')" class="nav__logo" style="padding-top: 10px;">
+            <img class="" style="width: 150px" src="assets/icons/logo-light.svg" alt="Logo image">
+        </a>
+
+        <a *ngIf="darkmode" (click)="changeEstadoNav('Inicio')" class="nav__logo" style="padding-top: 10px;">
+            <img class="" style="width: 150px" src="assets/icons/logo-dark.svg" alt="Logo image">
+        </a>
+
+        <div class="nav__menu" [ngClass]="showMenu ? 'show-menu ':'hide-menu'">
+            <ul class="nav__list grid">
+                <li class="nav__item" *ngFor="let item of itemsMenu">
+                    <a (click)="changeEstadoNav(item.nombre); installByUser(item.installApp!)" class="nav__link"
+                        *ngIf="!(!installEvent && item.installApp)"
+                        [ngClass]="{'active': seleccionado === item.nombre}"><i class="{{item.icono}} nav__icon"></i>
+                        {{item.nombre}}</a>
+                </li>
+            </ul>
+            <i class="fas fa-times nav__close" (click)="openAndCloseMenu()"></i>
+        </div>
+        <div class="nav__btns">
+            <!-- cambio de tema -->
+            <i class="change-theme" [ngClass]="estadoTheme == 'inicial' ? 'far fa-moon' : 'fas fa-sun'"
+                (click)="changeTheme()"></i>
+            <div class="nav__toggle" (click)="openAndCloseMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!-- <progress value="0" max="100"></progress> -->
+    </nav>
+</header>

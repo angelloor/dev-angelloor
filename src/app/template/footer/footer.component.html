@@ -1,0 +1,24 @@
+<footer class="footerPersonal">
+    <div class="footer__bg footer_class">
+        <a *ngIf="!darkmode" class="nav__logo" style="padding-top: 10px;">
+            <img class="" style="width: 150px" src="assets/icons/logo-white.svg" alt="Logo image">
+        </a>
+
+        <a *ngIf="darkmode" class="nav__logo" style="padding-top: 10px;">
+            <img class="" style="width: 150px" src="assets/icons/logo-dark.svg" alt="Logo image">
+        </a>
+
+        <div class="footer__socials mt-4">
+            <a href="https://www.instagram.com/angelloor.dev/" class=" footer__social" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/angelloor/" class="footer__social" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/angelloor/" class="footer__social" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="footer__copy">&#169; {{currentYear}} Angel Loor. Todos los derechos reservados.</p>
+    </div>
+</footer>

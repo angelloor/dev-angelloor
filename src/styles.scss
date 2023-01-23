@@ -1,0 +1,23 @@
+@import "~swiper/swiper-bundle.css";
+@import "~swiper/modules/navigation/navigation.min.css";
+@import "~swiper/modules/pagination/pagination.min.css";
+body {
+  margin: 0 0 var(--header-height) 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.content {
+  // margin-top: var(--header-height);
+
+  section {
+    // height: 100vh;
+  }
+
+  section#home {
+    // height: calc(100vh - var(--header-height));
+  }
+}

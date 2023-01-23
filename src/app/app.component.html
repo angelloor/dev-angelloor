@@ -1,0 +1,63 @@
+<div class="todo">
+  <app-header></app-header>
+  <main class="content main">
+    <div #inicio id="Inicio">
+      <app-inicio></app-inicio>
+    </div>
+    <div #about id="Acerca">
+      <app-about></app-about>
+    </div>
+
+    <!-- <div #skill id="Habilidades">
+      <app-skill></app-skill>
+    </div> -->
+
+    <!-- <div #services id="Servicios">
+      <app-service></app-service>
+    </div> -->
+
+    <!-- <div #qualification id="Experiencia">
+      <app-qualification></app-qualification>
+    </div> -->
+
+    <!-- <div #portfolio id="Portafolio"> -->
+    <!-- <app-portfolio></app-portfolio> -->
+    <!-- <app-project></app-project> -->
+    <!-- <app-testimonial></app-testimonial> -->
+    <!-- </div> -->
+    <!-- 
+    <div #contact id="Contacto">
+      <app-contact></app-contact>
+
+    </div> -->
+
+    <button class="top" (click)="onClick(inicio)" [ngClass]="{ visible: reachedTheEnd, hidden: !reachedTheEnd }">
+      <svg>
+        <use href="./assets/icons/icon.svg#icon-chevron-with-circle-up"></use>
+      </svg>
+    </button>
+    <app-footer></app-footer>
+  </main>
+</div>
+
+
+<div class="containerColores" [ngClass]="{ mostrarBotonColor: reachedTheEnd2, ocultarBotonColor: !reachedTheEnd2 }">
+  <div class="list">
+    <button [ngClass]="{ shake: collapsed, reset: init && !collapsed }" (click)="toggle(menu)"
+      [disabled]="botonColores">
+      <span [ngClass]="{ rotate: collapsed, reset: init && !collapsed }"><i class="fas fa-tint color__icon"></i></span>
+    </button>
+    <div class="menu" #menu>
+      <span (click)="colorYellow()" class="colorYellow"></span>
+      <span (click)="colorBlue()" class="colorBlue"></span>
+      <span (click)="colorGreen()" class="colorGreen"></span>
+    </div>
+  </div>
+  <svg>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" />
+      <feBlend in="SourceGraphic" in2="goo" />
+    </filter>
+  </svg>
+</div>
