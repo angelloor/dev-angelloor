@@ -1,11 +1,13 @@
 <header class="header">
     <nav class="nav containerPersonal">
         <a *ngIf="!darkmode" (click)="changeEstadoNav('Inicio')" class="nav__logo" style="padding-top: 10px;">
-            <img class="" style="width: 150px" src="assets/icons/logo-light.svg" alt="Logo image">
+            <img class="" style="width: 150px" src="assets/icons/logo-light.svg"
+                alt="Logo de Angel Loor - Full-Stack JavaScript Developer - LightMode">
         </a>
 
         <a *ngIf="darkmode" (click)="changeEstadoNav('Inicio')" class="nav__logo" style="padding-top: 10px;">
-            <img class="" style="width: 150px" src="assets/icons/logo-dark.svg" alt="Logo image">
+            <img class="" style="width: 150px" src="assets/icons/logo-dark.svg"
+                alt="Logo de Angel Loor - Full-Stack JavaScript Developer - DarkMode">
         </a>
 
         <div class="nav__menu" [ngClass]="showMenu ? 'show-menu ':'hide-menu'">
