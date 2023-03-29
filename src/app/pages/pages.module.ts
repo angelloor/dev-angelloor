@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectComponent } from './project/project.component';
+import { NotfoundComponent } from './public/not-found/not-found.component';
 import { QualificationComponent } from './qualification/qualification.component';
 import { ServiceComponent } from './service/service.component';
 import { SkillComponent } from './skill/skill.component';
@@ -25,6 +26,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     ProjectComponent,
     TestimonialComponent,
     ContactComponent,
+    NotfoundComponent,
   ],
   imports: [
     CommonModule,
@@ -45,6 +47,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     ProjectComponent,
     TestimonialComponent,
     ContactComponent,
+    NotfoundComponent,
   ],
 })
 export class PagesModule {}

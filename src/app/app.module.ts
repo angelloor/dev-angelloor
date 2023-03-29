@@ -5,7 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { ThemeServiceService } from './services/theme-service.service';
@@ -15,6 +14,7 @@ import { TemplateModule } from './template/template.module';
  */
 import { FirestoreModule } from '@angular/fire/firestore';
 import { MessagingModule } from '@angular/fire/messaging';
+import { AppRoutingModule } from './template/app-routing.module';
 /**
  * PWA
  */

@@ -1,6 +1,6 @@
-<div class="todo">
-  <app-header></app-header>
-  <main class="content main">
+<div class="all">
+  <app-header *ngIf="!isNotFound"></app-header>
+  <main class="content main" *ngIf="!isNotFound">
     <div #inicio id="Inicio">
       <app-inicio></app-inicio>
     </div>
@@ -31,17 +31,20 @@
 
     </div> -->
 
-    <button class="top" (click)="onClick(inicio)" [ngClass]="{ visible: reachedTheEnd, hidden: !reachedTheEnd }">
+    <button class="top" *ngIf="!isNotFound" (click)="onClick(inicio)"
+      [ngClass]="{ visible: reachedTheEnd, hidden: !reachedTheEnd }">
       <svg>
         <use href="./assets/icons/icon.svg#icon-chevron-with-circle-up"></use>
       </svg>
     </button>
-    <app-footer></app-footer>
+    <app-footer *ngIf="!isNotFound"></app-footer>
   </main>
+  <app-not-found *ngIf="isNotFound"></app-not-found>
 </div>
 
 
-<div class="containerColores" [ngClass]="{ mostrarBotonColor: reachedTheEnd2, ocultarBotonColor: !reachedTheEnd2 }">
+<div *ngIf="!isNotFound" class="containerColores"
+  [ngClass]="{ mostrarBotonColor: reachedTheEnd2, ocultarBotonColor: !reachedTheEnd2 }">
   <div class="list">
     <button [ngClass]="{ shake: collapsed, reset: init && !collapsed }" (click)="toggle(menu)"
       [disabled]="botonColores">

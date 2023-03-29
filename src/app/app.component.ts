@@ -8,6 +8,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
+import { Router } from '@angular/router';
 import { SwUpdate } from '@angular/service-worker';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -35,6 +36,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   botonColores: boolean = false;
   collapsed = false;
   init = false;
+
+  isNotFound: boolean = false;
 
   private _unsubscribeAll: Subject<any> = new Subject<any>();
 
@@ -80,7 +83,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     private decimalPipe: DecimalPipe,
     private readonly _navigationPages: NavegationPagesService,
     private _dataService: DataService,
-    private _swUpdate: SwUpdate
+    private _swUpdate: SwUpdate,
+    private router: Router
   ) {}
   ngAfterViewInit(): void {}
 
@@ -149,6 +153,18 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
    * PWA
    */
   ngOnInit() {
+    this.router.events.subscribe((event: any) => {
+      if (event.url === '/') {
+        if (event.url != undefined) {
+          this.isNotFound = false;
+        }
+      } else {
+        if (event.url != undefined) {
+          this.isNotFound = true;
+        }
+      }
+      // console.log();
+    });
     /**
      * PWA
      */
@@ -172,7 +188,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
     gsap.to('progress', {
       value: 100,
       scrollTrigger: {
-        trigger: '.todo',
+        trigger: '.all',
         scrub: 0.3,
         start: 'top top',
         end: 'bottom bottom',
