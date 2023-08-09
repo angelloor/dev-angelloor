@@ -2,7 +2,7 @@
 
 <img src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/img/portada.jpg" alt="Portada!" width="100%"/>
 
-<p align="center">
+<p align="center" style="text-align: center;">
 Ingeniero en Software con más de 3 años de experiencia profesional, actualmente mi enfoque está en el backend con tecnologías como NodeJS, Express, TypeScript, PostgreSQL, MongoDB, Heroku, Linux, entre otras tecnologías, analizando lógicas de negocios de aplicaciones con escala nacional e internacional. Considero que soy un profesional proactivo, analítico y muy perseverante, siempre estaré dispuesto a resolver problemas complejos con soluciones escalables de manera eficiente.
 </p>
 <p align="center">
@@ -13,7 +13,7 @@ Ingeniero en Software con más de 3 años de experiencia profesional, actualment
 
 **💼 Actualmente trabajo como:**
 
-Desarrollador de Software en<a href="https://puyo.gob.ec/" target="_blank"><b> GADMCP</b></a>
+Backend Engineer en<a href="https://puyo.gob.ec/](https://www.linkedin.com/company/picnicolombia" target="_blank"><b> PICNIC FOOD</b></a>
 
 **🔱 Actualmente trabajo con:**
 
@@ -25,7 +25,7 @@ Desarrollador de Software en<a href="https://puyo.gob.ec/" target="_blank"><b> G
 <a href="https://www.postgresql.org" target="_blank"><img height="75" src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/icons/tech/postgresql.svg"></a>  
 </div>
 
-\*_🔱 Tengo experiencia en:_
+**🔱 Tengo experiencia en:**
 
 <div style="display: flex;">
 <a href="https://www.linux.org" target="_blank"><img height="75" src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/icons/tech/linux.svg"></a>  
@@ -55,8 +55,6 @@ Desarrollador de Software en<a href="https://puyo.gob.ec/" target="_blank"><b> G
 <a href="https://instagram.com/angelloor.dev" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"></a>
 
 <div align="center">
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=angelloor.visitor-badge)
 
 </div>
 
