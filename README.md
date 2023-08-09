@@ -3,7 +3,7 @@
 <img src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/img/portada.jpg" alt="Portada!" width="100%"/>
 
 <p align="center">
-Me especializo en desarrollo de aplicaciones web y aplicaciones móviles con tecnologías modernas realizando proyectos que cumplan con los objetivos de tu empresa.
+Ingeniero en Software con más de 3 años de experiencia profesional, actualmente mi enfoque está en el backend con tecnologías como NodeJS, Express, TypeScript, PostgreSQL, MongoDB, Heroku, Linux, entre otras tecnologías, analizando lógicas de negocios de aplicaciones con escala nacional e internacional. Considero que soy un profesional proactivo, analítico y muy perseverante, siempre estaré dispuesto a resolver problemas complejos con soluciones escalables de manera eficiente.
 </p>
 <p align="center">
 ¡Una línea más! 👨‍💻
