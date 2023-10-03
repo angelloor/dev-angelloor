@@ -50,12 +50,8 @@ Backend Engineer en<a href="https://puyo.gob.ec/](https://www.linkedin.com/compa
 <a href="https://kubernetes.io/es" target="_blank"><img height="75" src="https://github.com/angelloor/dev-angelloor/blob/main/src/assets/icons/tech/kubernetes.svg"></a>  
 </div>
 
-**📫 Sígueme en:**<br>
-
-<a href="https://instagram.com/angelloor.dev" target="_blank"><img height="30" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"></a>
-
 <div align="center">
 
 </div>
 
-🧩 [#SNIPPETLIFE](https://instagram.com/angelloor.dev)
+🧩 [#SNIPPETLIFE]
